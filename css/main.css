@@ -85,3 +85,30 @@ body{
     margin-left: 10px;
 
 }
+.box{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text{
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    margin-right: 100px;
+}
+
+.js-select{
+    /* width: 100px; */
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #304156;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.js-option{
+    display: inline-block;
+    padding: 5px 10px;
+    /* background-color: rgb(227, 234, 34); */
+}
