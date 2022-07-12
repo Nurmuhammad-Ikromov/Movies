@@ -1,17 +1,17 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #161D25 ;
+    background-color: #161D25;
 }
 
-.container{
+.container {
     max-width: 1240px;
     width: 100%;
     padding: 20px;
     margin: 0 auto;
 }
 
-.site-title{
+.site-title {
     font-size: 48px;
     text-align: center;
     color: #fff;
@@ -71,34 +71,37 @@ body{
     border-bottom-left-radius: 8px;
 }
 
-.js-box{
+.js-box {
     width: 280px;
     padding: 10px;
 }
-.js-genbox{
+
+.js-genbox {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 
 }
 
-.js-genre  {
+.js-genre {
     margin-left: 10px;
 
 }
-.box{
+
+.box {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.text{
+.text {
     display: inline-block;
     font-size: 24px;
     color: #fff;
     margin: 0;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
-.js-select{
+.js-select {
     /* width: 100px; */
     padding: 5px 10px;
     font-size: 20px;
@@ -107,8 +110,120 @@ body{
     color: #fff;
 }
 
-.js-option{
+.js-option {
     display: inline-block;
     padding: 5px 10px;
     /* background-color: rgb(227, 234, 34); */
 }
+
+
+
+
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.modal-info{
+    display: flex;
+}
+
+.modal-inner{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.modal-btn, .mark-btn{
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #161D25;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.modal-btn:hover, .modal-btn:focus, .mark-btn:hover{
+    background-color: #fff;
+    color: #f00;
+    border: 1px solid #f00;
+    cursor: pointer;
+}
+
+.modal-btn{
+    /* font-size: 18px; */
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.mark-btn{
+    /* font-size: 18px; */
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-img{
+    width: 300px;
+  }
+
+  .modal-item-title{
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+
+  .box-top{
+    display: flex;
+  }
+  .bookmark{
+    margin-left: 150px;
+  }
+
+  .js-mark-title{
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .mark-item{
+    color: #f00;
+  }

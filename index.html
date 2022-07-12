@@ -17,15 +17,42 @@
 		<div class="container">
 			<h1 class="site-title">MOVIES</h1>
 
-			<div class="box">
-				<p class="text">Choose the movies' genre</p>
-				<select class="js-select">
-					<option value="" selected disabled>Choose</option>
+			<div class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
 
-					<!-- JS  -->
-				</select>
+					<div class="modal-info">
+						<img src="" class="modal-img" />
+
+						<div class="modal-inner">
+							<h2 class="modal-item-title"></h2>
+
+							<p class="modal-day"></p>
+
+							<p class="modal-item-genre"></p>
+
+							<p class="modal-item-text"></p>
+						</div>
+					</div>
+				</div>
 			</div>
-			
+
+			<div class="box-top">
+				<div class="box">
+					<p class="text">Choose the movies' genre</p>
+					<select class="js-select">
+						<option value="" selected disabled>Choose</option>
+
+						<!-- JS  -->
+					</select>
+				</div>
+
+				<div class="bookmark">
+					<h2 class="js-mark-title">Bookmark List</h2>
+					<ul class="js-bookmark"></ul>
+				</div>
+			</div>
+
 			<ul class="js-list"></ul>
 		</div>
 
